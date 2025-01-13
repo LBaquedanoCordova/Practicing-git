@@ -9,3 +9,11 @@ for (const name of names) {
 }
 
 const numbers = [2, 5, 7];
+
+class Animal {
+    constructor(tipo) {
+        this.tipo = tipo;
+    }
+}
+
+console.log(new Animal('vertebrado'));
