@@ -17,3 +17,5 @@ class Animal {
 }
 
 console.log(new Animal('vertebrado'));
+
+console.log(new Animal('invertebrado'));
